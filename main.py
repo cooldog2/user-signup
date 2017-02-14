@@ -7,7 +7,7 @@ form = """
     <table>
         <tr>
             <td>
-                <label> Username <input type="text" name="username" value=%(username)s required> </label>
+                <label> Username <input type="text" name="username" value="%(username)s" required=""> </label>
                 <span style="color: red">%(error_username)s</span>
             </td>
         </tr>
@@ -25,7 +25,7 @@ form = """
         </tr>
         <tr>
             <td>
-                <label> Email (optional) <input type="email" name="email" value=%(email)s> </label>
+                <label> Email (optional) <input type="email" name="email" value="%(email)s"> </label>
                 <span style="color: red">%(error_email)s</span><br>
             </td>
         </tr>
